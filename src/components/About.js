@@ -17,7 +17,7 @@ const About = () => {
           and skills where I often collaborated with designers and developers.
           Here’s my{" "}
           <a
-            href="https://drive.google.com/file/d/1wZ293bOjVp9nWBy65CKGse0GBneiq4z0/view?usp=sharing"
+            href="https://drive.google.com/file/d/1VTAFWC4o9DRBA8PpdAnC4QnZABq0NfTV/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >
