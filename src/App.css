@@ -1,5 +1,77 @@
 .App {
-  text-align: center;
+  /* margin: 30px; */
+  /* margin-left: 5%;
+  margin-right: 5%; */
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+a[href^="mailto:"] {
+  color: black;
+}
+
+.nav {
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  position: fixed;
+  background-color: lightgreen;
+  border-bottom: 1px black solid;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav p {
+  margin: 10px;
+  font-size: 20px;
+}
+
+.nav p:first-child {
+  margin-right: auto;
+  margin-left: 5%;
+}
+
+.nav p:last-child {
+  margin-right: 5%;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px black solid;
+  bottom: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: lightgreen;
+}
+
+.footer p {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.contact,
+.projects,
+.intro,
+.about {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.projects h2,
+.blurb h2 {
+  font-size: 40px;
 }
 
 .App-logo {
@@ -13,21 +85,6 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +92,131 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.intro {
+  font-size: 70px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.intro p {
+  padding-right: 20%;
+  line-height: 110%;
+}
+
+.intro img {
+  padding-top: 5%;
+}
+
+.name,
+.city {
+  text-decoration: underline;
+}
+
+.name:hover,
+.city:hover,
+.project h3:hover {
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.name:hover:after {
+  content: url(https://i.ibb.co/y4zpfD6/IMG-1454.jpg);
+  display: inline-block;
+  position: absolute;
+  padding-left: 35%;
+}
+
+.city:hover:after {
+  content: url(https://i.ibb.co/P6cSjnH/3c69a6491e341f9d2d80af2be6ecdf9c.jpg);
+  display: inline-block;
+  position: absolute;
+  margin: auto;
+  padding-left: 5%;
+}
+
+.project,
+.contact p {
+  border-top: 1px lightgray solid;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.project h3 {
+  margin: 1px;
+  padding-bottom: 1%;
+  font-size: 40px;
+}
+
+.radio:hover:after {
+  content: url(https://i.ibb.co/tp4Vzm7/Screen-Shot-2021-07-27-at-12-26-47-AM.png);
+  display: inline-block;
+  position: absolute;
+  padding-left: 30%;
+}
+
+.plant:hover:after {
+  content: url(https://i.ibb.co/yqYXC9s/Screen-Shot-2021-07-27-at-12-30-55-AM.png);
+  display: inline-block;
+  position: absolute;
+  padding-left: 25%;
+}
+
+.camp:hover:after {
+  content: url(https://i.ibb.co/pRwS9wS/Screen-Shot-2021-07-27-at-7-40-15-PM.png);
+  display: inline-block;
+  position: absolute;
+  padding-left: 30%;
+}
+
+.zones:hover:after {
+  content: url(https://i.ibb.co/k2ZytJM/Screen-Shot-2021-07-27-at-7-55-37-PM.png);
+  display: inline-block;
+  position: absolute;
+  padding-left: 30%;
+}
+
+.project p {
+  padding-right: 50%;
+  font-size: 17px;
+}
+
+.stack {
+  display: flex;
+  justify-content: start;
+}
+
+.stack p {
+  border: 1px black solid;
+  border-radius: 2px;
+  margin: 3px;
+  padding: 3px;
+}
+
+.stack p:hover {
+  border: 7px lightgreen solid;
+  border-radius: 2px;
+  background-color: black;
+  margin: 3px;
+  padding: 3px;
+  color: white;
+}
+
+.about {
+  display: flex;
+  justify-content: flex-start;
+  background-color: lightgreen;
+  border: black dashed 1px;
+  border-radius: 1%;
+  text-align: center;
+  margin: 10%;
+}
+
+.about p {
+  padding-left: 15%;
+  padding-right: 15%;
+  font-size: 20px;
 }
