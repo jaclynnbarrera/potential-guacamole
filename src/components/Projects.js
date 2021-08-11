@@ -87,7 +87,7 @@ const Projects = () => {
           >
             Github ↗️ |{" "}
           </a>
-          <a href="https://youtu.be/iaZTh2JFKXA" target="_blank">
+          <a href="https://youtu.be/tUUvP1cgpDU" target="_blank">
             Demo ↗️
           </a>
         </div>

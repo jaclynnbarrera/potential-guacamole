@@ -17,9 +17,9 @@ const Contact = () => {
         <p>Twitter ↗️</p>
       </a>
 
-      <a href="https://github.com/jaclynnbarrera" target="_blank">
+      {/* <a href="https://github.com/jaclynnbarrera" target="_blank">
         <p>Medium ↗️</p>
-      </a>
+      </a> */}
     </div>
   );
 };
