@@ -102,7 +102,7 @@ const Projects = () => {
         <p>
           Garden Zones is a command line interface application that helps you
           identify and learn about different plants and vegetables based on your
-          gardening zone.
+          gardening zone. Information scraped from Farmer's Almanac website.
         </p>
         <div className="links">
           <a
