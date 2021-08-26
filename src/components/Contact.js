@@ -13,7 +13,7 @@ const Contact = () => {
         <p>GitHub ↗️</p>
       </a>
 
-      <a href="https://github.com/jaclynnbarrera" target="_blank">
+      <a href="https://twitter.com/jaclynnbarr" target="_blank">
         <p>Twitter ↗️</p>
       </a>
 
