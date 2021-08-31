@@ -13,9 +13,10 @@ const Projects = () => {
           <p>POSTGRESQL</p>
         </div>
         <p>
-          Developed an online radio statio inspired by independent radio
-          stations like NTS Radio and The Lot Radio. Users can search or select
-          from curated songs and DJ sets, watch videos, and leave comments.
+          Developed an online radio station/music player inspired by independent
+          radio stations like NTS Radio and The Lot Radio. Users can search or
+          select from curated songs and DJ sets, watch videos, and leave
+          comments.
         </p>
         <div className="links">
           <a
@@ -100,9 +101,9 @@ const Projects = () => {
           <p>NOKOGIRI</p>
         </div>
         <p>
-          Garden Zones is a command line interface application that helps you
-          identify and learn about different plants and vegetables based on your
-          gardening zone. Information scraped from Farmer's Almanac website.
+          Garden Zones is a command line interface application to identify and
+          learn about different plants and vegetables based on your gardening
+          zone. Information scraped from Farmer's Almanac website.
         </p>
         <div className="links">
           <a
